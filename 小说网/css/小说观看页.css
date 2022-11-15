@@ -1,0 +1,41 @@
+main{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: burlywood;
+}
+main>p:first-child{
+    padding-top: 50px;
+}
+main>p:last-child{
+    padding-bottom: 50px;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+.zuozhe{
+    text-align: center;
+}
+.shuming{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    text-align: center;
+    line-height: 150px;
+}
+.shangxiaanniu{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 100px;
+}
+.shang{
+    position: absolute;
+    left: 100px;
+}
+.xia{
+    position: absolute;
+    right: 100px;
+}

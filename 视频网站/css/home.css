@@ -1,0 +1,104 @@
+.main1 {
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+}
+
+section {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main1>div {
+    margin: 10px;
+    width: calc((100% - 50px) / 5);
+    text-align: center;
+    display: flex;
+    height: 120px;
+    position: relative;
+    display: inline-block;
+}
+
+.main1>div>img {
+    position: relative;
+    left: -60px;
+    width: 40%;
+    height: 100%;
+}
+
+.main1>div>p {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+}
+
+.main1>div>p>span:nth-child(1) {
+    font-size: 10px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.main1>div>p>span:nth-child(2) {
+    display: inline-block;
+    width: 100%;
+    height: 67%;
+    font-size: 10px;
+    display: -webkit-box;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.sousuo {
+    margin-left: 30px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.sousuo:focus {
+    outline: none;
+}
+
+.xj1 {
+    position: absolute;
+    top: -2px;
+    width: 50px;
+    height: 58px;
+    border-radius: 0 20px 20px 0;
+}
+
+.js {
+    display: inline-block;
+    border: 1px solid;
+    width: 250px;
+    height: 55px;
+    position: relative;
+    /* left: calc(50% - 250px); */
+    left: 30px;
+    border-radius: 20px 0 0 20px;
+    /* top: 50px; */
+}
+
+aside {
+    display: inline-block;
+    margin-left:15%;
+    margin-top: 6%;
+}

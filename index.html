@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            width: 100%;
+            text-align: center;
+        }
+
+        div {
+            width: 200px;
+            text-align: center;
+            line-height: 200px;
+            height: 200px;
+            border-radius: 30px;
+            border: 1px solid;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+
+        div:nth-child(2) {
+            background-color: rgba(0, 0, 0, .3);
+        }
+
+        div:nth-child(3) {
+            background-color: rgba(18, 35, 215, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>请选择你需要的摸鱼入口(萧寂网)</h1>
+        <div class="dy">看电影</div>
+        <div class="xs">看小说</div>
+    </main>
+    <script>
+        let dy = document.querySelector(".dy")
+        let xs = document.querySelector(".xs")
+        dy.addEventListener("click", function () {
+            location.href = "./视频网站/home.html"
+        })
+        xs.addEventListener("click", function () {
+            location.href = "./小说网/home.html"
+        })
+    </script>
+</body>
+
+</html>

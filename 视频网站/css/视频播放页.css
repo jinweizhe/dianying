@@ -1,0 +1,13 @@
+video {
+    width: 300%;
+    margin: 100px auto;
+}
+
+.video-js.vjs-default-skin.vjs-big-play-centered {
+    position: absolute !important;
+    top: 300px;
+}
+
+.video-js {
+    position: static !important;
+}

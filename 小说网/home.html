@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <style>
+        .main>span {
+            width: 100%;
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <aside>
+            选择搜索关键词<select name="" id="">
+                <!-- 选择搜索项 标题：title ， 导演 ：director，主演：actor，地区：region，上映：releaseTime，分类：videoType -->
+                <option value="title">标题</option>
+                <option value="author">作者</option>
+                <option value="fictionType">分类</option>
+            </select>
+        </aside>
+        <p class="js"><input type="text" class="sousuo"><button class="xj1">搜索</button></p>
+        <main class="main1">
+            <span>搜索关键词可以根据小说名，作者，分类等进行搜索</span>
+        </main>
+    </section>
+    <script src="./tyjs/request.js"></script>
+    <script src="./tyjs/home.js"></script>
+</body>
+
+</html>
